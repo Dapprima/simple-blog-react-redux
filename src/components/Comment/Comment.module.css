@@ -1,0 +1,10 @@
+.comment {
+  background-color: var(--secondary-color);
+  width: fit-content;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+.commentBody {
+  margin: 0;
+}

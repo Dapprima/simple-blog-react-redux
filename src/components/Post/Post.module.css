@@ -1,0 +1,21 @@
+.post {
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.postTitle {
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(231, 22, 221);
+  text-transform: uppercase;
+}
+
+.postBody {
+  font-size: 16px;
+  font-weight: normal !important;
+}

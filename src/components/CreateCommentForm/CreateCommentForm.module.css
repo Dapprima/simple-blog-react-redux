@@ -1,0 +1,29 @@
+.commentForm {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.commentBody {
+  border: 2px solid var(--main-color);
+  margin-bottom: 10px;
+}
+
+.commentSubmitButton {
+  max-width: fit-content;
+  border: none;
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.errorMessage {
+  color: red;
+  padding-bottom: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .commentForm {
+    max-width: 100%;
+  }
+}
